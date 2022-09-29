@@ -1,0 +1,19 @@
+{
+  "name": "itogovayarabota_maslenkinatm",
+  "version": "1.0.0",
+  "description": "Итоговая работа для курса фронтенд-разработчик",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jquery",
+    "bootstrap"
+  ],
+  "author": "MaslenkinaT.M",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

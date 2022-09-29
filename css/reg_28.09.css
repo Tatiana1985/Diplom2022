@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    background : linear-gradient(45deg, rgb(69, 127, 215), pink);
+}
+form {
+    transform: translateY(0px);
+    filter: drop-shadow(1px 2px 4px rgba(171, 5, 183, 0.338));
+}
+form:focus-within {
+    transform: translateY(-4px);
+    filter: drop-shadow(1px 2px 4px rgba(219, 36, 8, 0.45));
+}
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+#wrongUser {
+    visibility: hidden;
+    color: brown;
+}
