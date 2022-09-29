@@ -47,7 +47,7 @@ app.get("/", function(request, response){
 });
 
 app.get("/reg", function(request, response){
-    response.sendFile(__dirname + "/views/reg_28.09.html");
+    response.sendFile(__dirname + "/views/reg.html");
 });
 
 app.listen(3000);
